@@ -1,0 +1,84 @@
+.titleBlogs {
+  font-size: 5rem;
+  padding: 3rem;
+  // background-color: aqua;
+  width: 100%;
+  text-align: center;
+}
+.blogs {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0rem;
+  // background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+.blog {
+  // background-color: aqua;
+  width: 50%;
+  height: auto;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  border-bottom: 0.2rem solid plum;
+  display: grid;
+  place-content: center;
+  transition: all 0.6s ease;
+
+  &:hover {
+    box-shadow: 0rem 1.5rem 1.5rem 0.6rem rgba(0, 0, 0, 0.1);
+    background-color: rgb(206, 255, 255);
+  }
+
+  .btnDeleteBlog {
+    margin: 1rem 0rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: rgb(255, 91, 62);
+    height: auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    &:hover {
+      font-size: 1.2rem;
+      // letter-spacing: 0.5rem;
+      font-weight: bold;
+      background-color: white;
+      letter-spacing: 0.3rem;
+      color: rgb(255, 91, 62);
+      border-bottom: 0.2rem solid rgb(255, 91, 62);
+      border-bottom-left-radius: 0rem;
+      border-bottom-right-radius: 0rem;
+    }
+  }
+}
+.blogTitle {
+  font-size: 2.3rem;
+}
+.blogAuthor {
+  font-size: 2rem;
+}
+.blogBody {
+  font-size: 1.7rem;
+}
+
+.btnDetalle {
+  width: 100%;
+  border: none;
+  background-color: rgb(80, 100, 107);
+  border-radius: 0.8rem;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding: 1rem 0rem;
+  cursor: pointer;
+}

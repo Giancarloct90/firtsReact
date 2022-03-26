@@ -1,0 +1,57 @@
+.createBlogDiv {
+  width: 100%;
+  h1 {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.formBlogs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  label {
+    font-size: 2rem;
+  }
+
+  input[type="text"] {
+    height: 3rem;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+  }
+  option {
+    font-size: 1.7rem;
+  }
+
+  .btnAddBlog {
+    height: autp;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(25, 78, 95);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+}
+
+.divInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.txtErrorCreate {
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+}

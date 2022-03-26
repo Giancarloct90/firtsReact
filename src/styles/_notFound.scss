@@ -1,0 +1,28 @@
+.divNotFound {
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 2rem;
+  .btnReturnHome {
+    text-align: center;
+    height: auto;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.4rem;
+    font-weight: bolder;
+    background-color: aqua;
+    padding: 2rem;
+    width: 20%;
+    border: none;
+    border-radius: 1rem;
+  }
+
+  .pageNotFound {
+    font-size: 5rem;
+    color: purple;
+  }
+}

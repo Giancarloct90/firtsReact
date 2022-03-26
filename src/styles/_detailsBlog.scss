@@ -1,0 +1,36 @@
+.divDeatilsBlog {
+  width: 100%;
+  height: 100%;
+  //   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   display: grid;
+  //   item-content: center;
+
+  .blogss {
+    background-color: rgb(255, 248, 240);
+    padding: 3rem 3rem;
+    width: 60%;
+    height: auto;
+    border-radius: 1rem;
+    display: grid;
+    gap: 1.7rem;
+  }
+
+  .h1BlogSTitle {
+    text-align: center;
+    font-size: 3rem;
+    padding: 4rem 0rem;
+  }
+  .h1Blog {
+    font-size: 3rem;
+  }
+  .h1Author {
+    font-size: 1.7rem;
+    color: rgb(156, 156, 156);
+  }
+  .h1Body {
+    font-size: 1.9rem;
+  }
+}
